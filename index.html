@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+  <body>
+    <header class="header">
+      <div onclick=showsidebar()  class="hamburger-menu">&#9776; </div>
+      <div onclick=closesidebar() class="close">&#10006;</div>
+      <div class="logo">
+        <img src="assets/img/shikhar.png" aria-placeholder="logo" class="shikhar">
+      </div>
+       <nav class="navbar">
+          <ul class="weather-navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Forcast</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+     <div class="follow">
+         <span class="follow-us">Follow Us</span>
+            <ul class="social-icons">
+              <li>
+                <a href="#" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+            </ul>
+     </div>
+
+    </header>
+    <div class="sidebar-list">
+      
+      <ul class="sidebar">
+         
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Forcast</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+
+    
+    <main class="main-container">
+      <div class="input-container">
+        <input class="input-city" type="text" placeholder="Search City" />
+        <button class="search-btn">
+          <img src="/assets/img/search.png" alt="search" class="search">
+        </button>
+      </div>
+
+      <section class="Weather-info">
+        <div class="location-date">
+          <div class="location">
+           <img src="assets/img/location.png" class="location-png" >
+            <h4 class="country-txt">India</h4>
+          </div>
+          <h5 class="current-date">Fri, 1 Aug</h5>
+        </div>
+        <div class="weather-summary">
+            <img src="assets/img/clouds.svg" class="weather-summary-img">
+            <div class="celcius-info">
+              <h1 class="temp" >0°C</h1>
+              <h3 class="cloud-txt" >Cloud</h3>
+            </div>
+        </div>
+        <div class="humidity-wind">
+          <div class="humidity-info">
+              <div class="humidity-wind-icon">
+                  <img src="assets/img/droppng.png" class="drop">
+              </div>
+              <div class="humidity-txt">
+                  <h5 class="humidity">Humidity</h5> 
+                  <h5 class="humidity-p">74%</h5>
+              </div>
+          </div>
+          <div class="wind-info">
+              <div class="humidity-wind-icon">
+                <img src="/assets/img/windpng.png" class="windpng">  
+                </div>
+              <div class="wind-txt">
+                <h5 class="wind">Wind Speed</h5> 
+                <h5 class="wind-speed">4.12 Kph</h5> 
+              </div>
+          </div> 
+        </div>
+        <div class="future-pre">
+            <div class="forcast-box">
+              <div class="date-txt">
+                <h6 class="forcast-txt">Aug 02</h6>
+              </div>
+              <div class="predicted-img">
+                <img src="assets/img/thunderstorm.svg" class="thunderstorms">
+              </div>
+              <div class="degree">
+                <h6 class="degree-txt">28°C</h6>
+              </div>
+            </div>
+            <div class="forcast-box">
+              <div class="date-txt">
+                <h6 class="forcast-txt">Aug 03</h6>
+              </div>
+              <div class="predicted-img">
+                <img src="assets/img/thunderstorm.svg" class="thunderstorms">
+              </div>
+              <div class="degree">
+                <h6 class="degree-txt">28°C</h6>
+              </div>
+            </div>
+            <div class="forcast-box">
+              <div class="date-txt">
+                <h6 class="forcast-txt">Aug 04</h6>
+              </div>
+              <div class="predicted-img">
+                <img src="/assets/img/thunderstorm.svg" class="thunderstorms">
+              </div>
+              <div class="degree">
+                <h6 class="degree-txt">28°C</h6>
+              </div>
+            </div>
+            <div class="forcast-box">
+              <div class="date-txt">
+                <h6 class="forcast-txt">Aug 05</h6>
+              </div>
+              <div class="predicted-img">
+                <img src="/assets/img/thunderstorm.svg" class="thunderstorms">
+              </div>
+              <div class="degree">
+                <h6 class="degree-txt">28°C</h6>
+              </div>  
+            </div>  
+            <div class="forcast-box">
+              <div class="date-txt">
+                <h6 class="forcast-txt">Aug 06</h6>
+              </div>
+              <div class="predicted-img">
+                <img src="/assets/img/thunderstorm.svg" class="thunderstorms">
+              </div>
+              <div class="degree">
+                <h6 class="degree-txt">28°C</h6>
+              </div>
+            </div>
+        </div>
+      </section>
+      
+    </main>
+  <footer class="footer">
+      <p>copyright &copy; under [P] Ltd. All Rights Reserved.</p>
+  </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
+ 
+</html>
