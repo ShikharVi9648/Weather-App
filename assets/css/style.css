@@ -22,7 +22,7 @@ body {
 
 .main-container {
     border: 1px solid rgba(14, 66, 236, 0.15);
-    width: 300px;
+    width: 330px;
     height: 496px;
     background: linear-gradient(rgba(14, 66, 236, 0.15));
     border-radius: 12px;
@@ -248,4 +248,5 @@ body {
         display: none;
     }
 }
+
 
