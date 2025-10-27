@@ -16,7 +16,7 @@ const closeMenu = document.querySelector(".close");
 
 const updateForecastItemsContainere = document.querySelector(".future-pre");
 
-apiKey = `8014fccb01c76cd9fb941de68c235e3a`;
+apiKey = `Enter Your Api`;
 
 function showsidebar() {
   sidebar.style.display = "block";
@@ -158,3 +158,4 @@ function updateForecastItem(weatherData) {
 
   updateForecastItemsContainere.insertAdjacentHTML("beforeend", forecastItem);
 }
+
